@@ -1,0 +1,48 @@
+{
+  "name": "STYLEHIVE - 智能衣橱",
+  "short_name": "STYLEHIVE",
+  "description": "智能衣橱时尚社交平台，为您提供个性化穿搭建议",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/667eea/ffffff?text=SH",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512/667eea/ffffff?text=SH",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/1024/667eea/ffffff?text=SH",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "fashion", "social"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "我的衣橱",
+      "short_name": "衣橱",
+      "description": "快速访问我的衣橱",
+      "url": "/index.html?tab=wardrobe",
+      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "穿搭推荐",
+      "short_name": "推荐",
+      "description": "查看今日穿搭推荐",
+      "url": "/index.html?tab=home",
+      "icons": [{ "src": "icons/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
